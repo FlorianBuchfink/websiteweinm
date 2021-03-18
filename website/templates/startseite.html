@@ -1,0 +1,1223 @@
+{% extends "HeaderFooter.html" %}
+{% block content %}
+{% load static %}
+<!doctype html>
+<html lang="de">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="viewport" content="width=device-width, user-scalable=no">
+    <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' />
+    <link rel="stylesheet" href="{% static 'website/bootstrap/css/bootstrap.min.css' %}"
+        integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
+
+    <script src="{% static 'website/jquery.js' %}"></script>
+
+    <!-- Bootstrap CSS -->
+
+    <script src="{% static 'website/bootstrap/js/bootstrap.min.js' %}"></script>
+
+
+    <title>Startseite</title>
+</head>
+
+<body>
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12 underHeader"></div>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="Mainrow col-12"  style="opacity: 0">
+                <div class="row justify-content-center">
+                    <div class="col-md-3 d-none d-md-block">
+                        <div class="row">
+
+                            <div class="col-12 name">Barbara Götz</div>
+
+                            <div class="col-12 titel">Fachanwältin für Arbeitsrecht</div>
+
+                            <div class="col-12" style="text-align: right;">
+                                <div id="mehrerfahrenGoetzTop" class="mehrerfahren">mehr erfahren</div>
+                            </div>
+                        </div>
+
+
+                    </div>
+                    <div class="Titelbild col-12 col-md-6"></div>
+                    <div class="col-md-3 d-none d-md-block">
+                        <div class="row">
+                            <div class="col-12 name2">Ralf Weinmann</div>
+
+                            <div class="col-12 titel2">Fachanwalt für Arbeitsrecht <br>& Sozialrecht</div>
+
+                            <div class="col-12" style="text-align: left;">
+                                <div id="mehrerfahrenWeinmannTop" class="mehrerfahren2">mehr erfahren</div>
+                            </div>
+
+
+                        </div>
+
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid">
+        <div class="row justify-content-center">
+            <div class="col-12 Willkommen" style="opacity: 0;">
+                <div class="row justify-content-center col-12" style="width: 100%;">
+                    <div class="Willkommenstext col-12">Willkommen bei Ihrer Rechtsanwaltskanzlei <br> Weinmann und Götz</div>
+                    <div id="mehrueberuns" class="col-10 col-md-6 col-lg-3 mehrerfahrenueberuns" style="top: 20px;">mehr Über uns</div>
+                    
+                    <div class="col-12"></div>
+                    <div id="ueberunsbeschreibung" class="col-12 col-md-9 anwaltbeschreibung" style="left:10px; height: 0px; overflow: scroll">
+                        Die Rechtsanwaltskanzlei Ralf Weinmann & Barbara Götz besteht seit 01.03.2013. Als Fachanwälte sind wir auf alle
+                        Bereiche des Arbeitsrechts spezialisiert (einschließlich des öffentlichen Dienstes). Darüber hinaus bearbeiten wir
+                        Mandate aus dem Beamtenrecht und im Sozialrecht, hier vor allem im Zusammenhang mit Problemen aus dem Arbeitsleben.
+                        Wir bieten Ihnen eine vorausschauende Beratung zur Vermeidung von Rechtsstreitigkeiten bis hin zur Vertretung in
+                        außergerichtlichen Verhandlungen oder vor Gericht. Zu unseren Auftraggebern gehören Arbeitnehmer wie Arbeitgeber, so
+                        dass wir auch die Denkweise der jeweils anderen Seite einschätzen können. Ferner zählen Geschäftsführer, Betriebsräte,
+                        Personalräte sowie Beamte zu unseren Mandanten.
+                        <br><br>
+                        Wir sind durch Aufnahme von Rechtsanwalt Ralf Weinmann in der FOCUS-SPEZIAL Anwaltsliste 2015 als einzige Kanzlei aus
+                        Niederbayern und der Oberpfalz im Bereich Arbeitsrecht genannt. Dies wiederholte sich jährlich bis einschließlich 2018,
+                        zudem werden wir 2017 wie bereits 2016 in der Rubrik Fachanwälte für Sozialrecht aufgeführt. 2018 ist Rechtsanwalt
+                        Weinmann dort als einziger Anwalt in Ostbayern genannt.
+                        <br><br>
+                        RA Ralf Weinmann und RAin Barbara Götz sind Autoren des bei der NOMOS Verlagsgesellschaft erschienenen Handbuches "Das
+                        Arbeitnehmermandat" (2. Auflage, 2017), siehe auch http://www.nomos-shop.de.
+                        <br>
+                        <br>
+                    </div>
+                    <div class="col-12"></div>
+                    <div id="wenigerueberuns" class="col-10 col-md-6 col-lg-3 mehrerfahrenueberuns sr-only" style="top: 20px; cursor: pointer;">"Über uns" einklappen</div>
+                    <div class="col-12" style="margin-top: 20px"></div>
+                </div>
+
+            </div>
+
+            <div class="col-12 platzhalter" style="height: 10px; background-color: white;"></div>
+        </div>
+    </div>
+
+    <div class="container-fluid">
+        <div class="row justify-content-center" >
+            <div class="col-12 Rechtsgebiete" style="opacity: 0;">
+                <div class="row">
+                    <div class="col-12 Headline">Ihr Partner für:</div>
+                    <div class="col-12 platzhalter" style="height: 10px; background-color: white;"></div>
+                    <div class="col-12 col-md-4 box">
+                        <div class="row justify-content-center">
+
+
+
+                            <div class="col-10 card1 d-none d-md-block">
+                                <div class="col-12 secondheadline ">Arbeitsrecht</div>
+                                <div class="col-12" style="text-align: left;">
+                                    <ul style="margin-top: 10px">
+                                        <li>Gestaltung bzw. Prüfung von Arbeitsverträgen</li>
+                                        <li>Beratung</li>
+                                        <li>außer- /gerichtliche Vertretung bei Beendigung des Arbeitsverhältnisses</li>
+                                        <li>Durchsetzung oder Abwehr von Zahlungs- oder Urlaubsansprüchen</li>
+                                        <li>Abmahnungen</li>
+                                        <li>Beratung bei Mobbing</li>
+                                        <li>Geltendmachung bzw. Abwehr von Schadensersatz</li>
+                                        <li>Durchsetzung von Rechten aus betrieblicher Altersversorgung</li>
+                                        <li>Prüfung nachvertraglicher Wettbewerbsverbote</li>
+                                        <li>Baratung Arbeitszeugnisse</li>
+                                        <li>kollektives Arbeitsrecht</li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <div class="col-10 card1 d-md-none">
+                                <div class="col-12 secondheadline ">Arbeitsrecht</div>
+                                <div id="arbeitsrecht_points_small" class="col-12 sr-only" style="text-align: left;">
+                                    <ul style="margin-top: 10px">
+                                        <li>Gestaltung bzw. Prüfung von Arbeitsverträgen</li>
+                                        <li>Beratung</li>
+                                        <li>außer- /gerichtliche Vertretung bei Beendigung des Arbeitsverhältnisses</li>
+                                        <li>Durchsetzung oder Abwehr von Zahlungs- oder Urlaubsansprüchen</li>
+                                        <li>Abmahnungen</li>
+                                        <li>Beratung bei Mobbing</li>
+                                        <li>Geltendmachung bzw. Abwehr von Schadensersatz</li>
+                                        <li>Durchsetzung von Rechten aus betrieblicher Altersversorgung</li>
+                                        <li>Prüfung nachvertraglicher Wettbewerbsverbote</li>
+                                        <li>Baratung Arbeitszeugnisse</li>
+                                        <li>kollektives Arbeitsrecht</li>
+                                    </ul>
+                                </div>
+                                <div class="col-12">
+                                    <div class="row justify-content-center">
+                                        <div id="mehrerfahrenArbeitsrecht" class="col-10 col-sm-7 mehrerfahren3">mehr
+                                            erfahren</div>
+                                    </div>
+                                </div>
+
+                            </div>
+
+
+
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4 box">
+                        <div class="row justify-content-center">
+
+
+                            <div class="col-10 card1 d-none d-md-block">
+                                <div class="col-12 secondheadline">Sozialrecht</div>
+                                <div class="col-12" style="text-align: left;">
+                                    <ul style="margin-top: 10px">
+                                        <li>Beratung für Antragstellung beim Sozialgericht</li>
+                                        <li>Beratung beim Wiederspruchsverfahren</li>
+                                        <li>Arbeitslosenversicherung</li>
+                                        <li>gesetzlichen Unfallversicherung</li>
+                                        <li>gesetzlichen Kranken- und Rentenversicherung</li>
+                                        <li>Schwerbehindertenrecht</li>
+                                        <li>Verweigerung der Krankengeldzahlung durch Krankenkassen</li>
+                                    </ul>
+                                </div>
+                            </div>
+
+
+                            <div class="col-10 card1 d-md-none">
+                                <div class="col-12 secondheadline">Sozialrecht</div>
+                                <div id="sozialrecht_points_small" class="col-12 sr-only" style="text-align: left;">
+                                    <ul style="margin-top: 10px">
+                                        <li>Beratung für Antragstellung beim Sozialgericht</li>
+                                        <li>Beratung beim Wiederspruchsverfahren</li>
+                                        <li>Arbeitslosenversicherung</li>
+                                        <li>gesetzlichen Unfallversicherung</li>
+                                        <li>gesetzlichen Kranken- und Rentenversicherung</li>
+                                        <li>Schwerbehindertenrecht</li>
+                                        <li>Verweigerung der Krankengeldzahlung durch Krankenkassen</li>
+                                    </ul>
+                                </div>
+                                <div class="col-12">
+                                    <div class="row justify-content-center">
+                                        <div id="mehrerfahrenSozialrecht" class="col-10 col-sm-7 mehrerfahren3">mehr
+                                            erfahren</div>
+                                    </div>
+                                </div>
+                            </div>
+
+
+
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-4 box">
+                        <div class="row justify-content-center">
+
+                            <div class="col-10 card1 d-none d-md-block">
+                                <div class="col-12 secondheadline">Beamtenrecht</div>
+                                <div class="col-12" style="text-align: left;">
+                                    <ul style="margin-top: 10px">
+                                        <li>dienstliche Beurteilungen</li>
+                                        <li>disziplinarrechtliche Verfahren</li>
+                                        <li>Streitigkeiten im Zusammenhang mit Versetzungen und Beförderungen</li>
+                                        <li>Dienstunfälle</li>
+                                        <li>Ruhestandsversetzungen</li>
+
+                                    </ul>
+                                </div>
+
+
+                            </div>
+
+
+
+                            <div class="col-10 card1 d-md-none">
+                                <div class="col-12 secondheadline">Beamtenrecht</div>
+                                <div id="beamtenrecht_points_small" class="col-12 sr-only" style="text-align: left;">
+                                    <ul style="margin-top: 10px">
+                                        <li>dienstliche Beurteilungen</li>
+                                        <li>disziplinarrechtliche Verfahren</li>
+                                        <li>Streitigkeiten im Zusammenhang mit Versetzungen und Beförderungen</li>
+                                        <li>Dienstunfälle</li>
+                                        <li>Ruhestandsversetzungen</li>
+
+                                    </ul>
+                                </div>
+
+                                <div class="col-12">
+                                    <div class="row justify-content-center">
+                                        <div id="mehrerfahrenBeamtenrecht" class="col-10 col-sm-7 mehrerfahren3">mehr
+                                            erfahren</div>
+                                    </div>
+                                </div>
+
+                            </div>
+
+
+
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="col-12 platzhalter" style="height: 40px; background-color: white;"></div>
+        </div>
+    </div>
+    
+
+    <div class="container-fluid">
+        <div class="row justify-content-center">
+            <div class="col-12" style="background-color: #a48fa59e; padding-bottom: 30px;">
+               
+                <div class="col-12 Headline2">Anwälte der Kanzlei:</div>
+                <div class="row justify-content-center">
+                    <div class="anwaltbild col-12 col-md-4">
+                        <div class="row justify-content-center">
+                            <div id="bildweinmann" class="col-12"></div>
+                            <div class="col-11 namecard">Ralf Weinmann</div>
+                            <div class="col-11 titelcard">Fachanwalt für Arbeits- <br>& Sozialrecht</div>
+                            <div id="mehrerfahrenAnwaltWeinmann" class="col-6 col-md-10 mehrerfahrenAnwalt">mehr erfahren</div>
+
+                        </div>
+                    </div>
+                    <div class="anwaltbild col-12 col-md-4">
+                        <div class="row justify-content-center">
+                            <div id="bildgoetz" class="col-12"></div>
+                            <div class="col-11 namecard">Barbara Götz</div>
+                            <div class="col-11 titelcard">Fachanwältin für<br> Arbeitsrecht</div>
+                            <div id="mehrerfahrenAnwaltGoetz" class="col-6 col-md-10 mehrerfahrenAnwalt">mehr erfahren</div>
+                        </div>
+                    </div>
+                    <div class="anwaltbild col-12 col-md-4">
+                        <div class="row justify-content-center">
+                            <div id="bildstrahl" class="col-12"></div>
+                            <div class="col-11 namecard">Peter Strahl</div>
+                            <div class="col-11 titelcard">Rechtsanwalt für Sozial- <br>& Beamtenrecht</div>
+                            <div id="mehrerfahrenAnwaltStrahl" class="col-6 col-md-10 mehrerfahrenAnwalt">mehr erfahren</div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+
+        <div class="col-12 platzhalter" style="height: 20px; background-color: white;"></div>
+    </div>
+
+    <div class="container-fluid">
+        <div class="row justify-content-center">
+            <div class="col-12" style="background-color: #ffffff9e; padding-bottom: 30px;">
+                
+                <div class="col-12 Headline2" style="color:#5e2750">Kontakt: </div>
+                <div class="row justify-content-center">
+                    <div class="col-12" style="height: 10px;"></div>
+                    <div class="col-12 addrHeadline">Rechtsanwaltskanzlei Ralf Weinmann & Barbara Götz</div>
+                    <div class="col-12 addrStreet">Prüfeninger Str. 20 in 93049 Regensburg</div>
+                    <div class="col-12 addrStreet" style="margin-top: 10px;">Tel: +49 (0)941 461893-0</div>
+                    <div class="col-12 addrStreet">Fax: +49 (0)941 461893-99</div>
+                    <div class="col-12 addrStreet">Email: <a href="mailto:info@weinmann-goetz.de">info@weinmann-goetz.de</a></div>
+                    
+                    <div class="col-12" style="height: 20px;"></div>
+                    <!-- <div class="col-12"><span style="font-weight: 400;">Prüfeninger Str. 20 in 93049 Regensburg</span></div> -->
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2616.5960705337507!2d12.078231415472954!3d49.01826919739043!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x479fc0552eebb235%3A0x63a8d4cc584bfe4!2sPr%C3%BCfeninger%20Str.%2020%2C%2093049%20Regensburg!5e0!3m2!1sde!2sde!4v1616010901336!5m2!1sde!2sde"
+                        width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    
+                </div>
+            </div>
+    
+        </div>
+    
+        <div class="col-12 platzhalter" style="height: 60px; background-color: white;"></div>
+    </div>
+
+    <div class="container-fluid">
+        <div class="row justify-content-center">
+            <div class="col-12" style="background-color: #2d2d2d; padding-bottom: 30px; padding-bottom: 30px;">
+                <div class="row justify-content-center">
+                    <div class="col-12 col-md-6 Footertext" style="margin-top: 40px;">In Bürogemeinschaft mit Rechtsanwaltskanzlei Dr. Kalsbach, Dr. Buchfink und Kollegen <br> <a href="https://www.kalsbach-buchfink.de" style="color: white">www.kalsbach-buchfink.de</a></div>
+                    <div class="col-12"></div>
+                    <div class="col-10 col-md-6" style="height: 1px; background-color: white; margin-top: 10px;"></div>
+                    <div class="col-12" style="height: 40px;"></div>
+                    <div class="bildlogo col-12"></div>
+                    <div id="datenschutz" class="col-6 col-md-2 Footertext2" style="cursor: pointer;" >Datenschutz</div>
+                    <div class="col-6 col-md-2 Footertext2" ><a href="https:/weinmann-goetz.de" style="color: white">www.weinmann-goetz.de</a></div>
+                    <div id="impressum" class="col-6 col-md-2 Footertext2" style="cursor: pointer;">Impressum</div>
+                    <div class="col-12 Footertext2" >Tel: +49 (0)941 461893-0</div>
+
+                    <div class="col-12" style="text-align: center; color: grey; margin-top: 40px;">Copyright &copy; <span id="Currentyear"></span> Rechtsanwaltskanzlei Ralf Weinmann & Barbara Götz </div>
+                    <script>currentYear = (new Date().getFullYear())
+                        $("#Currentyear").html(currentYear)
+                    </script>
+                </div>
+    
+                
+                </div>
+            </div>
+    
+        </div>
+    
+     
+    </div>
+
+
+
+
+    <div id="beschreibungWeinmann" class="beschreibungcontainer container sr-only">
+        <div class="row justify-content-center">
+            <div class="col-10 overlay">
+                <div class="row justify-content-center">
+                    <div class="offset-11 col-2 xbtn"></div>
+                    <div class="nameHeadline col-12">Ralf Weinmann</div>
+                    <div class="titelHeadline col-12">Rechtsanwalt für Sozial- <br>& Beamtenrecht</div>
+                    <div class="bildanwaltweinmann col-12 col-md-4"></div>
+                    <div class="anwaltbeschreibung col-12 col-md-8">
+                        Rechtsanwalt Ralf Weinmann, geboren 1961 in Osterode/Harz (Niedersachsen), studierte in Regensburg und absolvierte hier
+                        auch seine Referendarzeit. Seine Zulassung als Rechtsanwalt erhielt er am 15.04.1991. Rechtsanwalt Weinmann hat von
+                        Beginn seiner Anwaltstätigkeit an in den Bereichen Arbeitsrecht (gerade auch im Arbeitsrecht des öffentlichen Dienstes),
+                        Sozialrecht und Beamtenrecht gearbeitet, ab 1993 in der Sozietät Schild & Weinmann. 1994 wurde ihm die Erlaubnis zum
+                        Führen der Bezeichnung „Fachanwalt für Arbeitsrecht“ verliehen, 2002 die zum Führen der Bezeichnung „Fachanwalt für
+                        Sozialrecht“. Seit einer Reihe von Jahren ist er selbst Mitglied in einem der beiden gemeinsamen Fachprüfungsausschüsse
+                        Arbeitsrecht der Rechtsanwaltskammern Bamberg und Nürnberg, seit April 2018 zudem Mitglied des Vorstandes der
+                        Rechtsanwaltskammer Nürnberg.
+                        <br>
+                        <br>
+                        Er verfügt über langjährige Prozesserfahrung nicht nur vor den Arbeits- und Landesarbeitsgerichten, dem
+                        Bundesarbeitsgericht und in der Sozialgerichtsbarkeit, sondern auch bei den Kammern und Senaten in allen
+                        verwaltungsgerichtlichen Instanzen, in beamtenrechtlichen Streitigkeiten und im Personalvertretungsrecht sowie auch vor
+                        kirchlichen Schlichtungsstellen und Gerichten.
+                        <br>
+                        <br>
+                        2015, 2016, 2017 und 2018 wird Rechtsanwalt Ralf Weinmann in der FOCUS Spezial Anwaltsliste im Arbeitsrecht als einzige
+                        Nennung aus Regensburg empfohlen (so schon 2004 im Nachrichtenmagazin FOCUS). 2016, 2017 und 2018 wird er zusätzlich
+                        auch im Bereich Sozialrecht aufgeführt, 2018 dort als einziger Fachanwalt für Sozialrecht in Ostbayern.
+                        <br>
+                        <br>
+                        Rechtsanwalt Weinmann steht regelmäßig für Betriebs- und Personalräteschulungen (beispielsweise von Gewerkschaften) zur
+                        Verfügung. Er ist auch als Referent in arbeits- und sozialrechtlichen Seminaren für Geschäftsführer, Personalleiter und
+                        Personalsachbearbeiter (z. B. bei der IHK Regensburg) tätig. Seit dem Sommersemester 2015 ist er Lehrbeauftragter für
+                        kollektives Arbeitsrecht an der OTH Regensburg.
+                        Rechtsanwalt Weinmann ist Mitautor des im NOMOS Verlag nunmehr in zweiter Auflage erschienenen Handbuchs Weinmann/Götz
+                        „Das Arbeitnehmermandat“ (2. Aufl.2017), Mitautor im Nomos-Kommentar „TVöD/TV-L“ und Verfasser einer Reihe von Aufsätzen
+                        und Urteilsanmerkungen in Fachzeitschriften.
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="beschreibungGoetz" class="beschreibungcontainer container sr-only">
+        <div class="row justify-content-center">
+            <div class="col-10 overlay">
+                <div class="row justify-content-center">
+                    <div class="offset-11 col-2 xbtn"></div>
+                    <div class="nameHeadline col-12">Barbara Götz</div>
+                    <div class="titelHeadline col-12">Fachanwältin für<br> Arbeitsrecht</div>
+                    <div class="bildanwaltgoetz col-12 col-md-4"></div>
+                    <div class="anwaltbeschreibung col-12 col-md-8">
+                        Rechtsanwältin Barbara Götz, geboren 1970 im Landkreis Schwandorf, ist seit 21.05.2003 als Rechtsanwältin zugelassen.
+                        Von März 2003 bis September 2007 war sie wissenschaftliche Mitarbeiterin am Lehrstuhl für Strafrecht, Kriminologie,
+                        Jugendstrafrecht und Strafvollzugsrecht bei Professor Dr. Henning Ernst Müller, Universität Regensburg, und in diesem
+                        Zeitraum auch Rechtsanwältin in zwei Kanzleien. Ab Juli 2008 bis Dezember 2012 arbeitete Rechtsanwältin Barbara Götz in
+                        der Rechtsanwaltskanzlei Schild, Weinmann, Zeller, Winkler und Kollegen in Regensburg ausschließlich in den Bereichen
+                        Arbeitsrecht und Sozialrecht.
+                        <br>
+                        <br>
+                        Nachdem sie besondere theoretische und besondere praktische Erfahrungen auf dem Gebiet des Arbeitsrechts nachgewiesen
+                        hatte, wurde ihr von der Rechtsanwaltskammer Nürnberg am 02. April 2012 die Befugnis verliehen, die Bezeichnung
+                        „Fachanwältin für Arbeitsrecht“ zu führen.
+                        <br>
+                        <br>
+                        Rechtsanwältin Barbara Götz ist Mitautorin des Handbuches Weinmann/Götz "Das Arbeitnehmermandat" (2. Auflage 2017, vgl.
+                        auch http://www.nomos-shop.de).
+    
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="beschreibungStrahl" class="beschreibungcontainer container sr-only">
+        <div class="row justify-content-center">
+            <div class="col-10 overlay">
+                <div class="row justify-content-center">
+                    <div class="offset-11 col-2 xbtn"></div>
+                    <div class="nameHeadline col-12">Peter Strahl</div>
+                    <div class="titelHeadline col-12">Rechtsanwalt für Sozial- <br>& Beamtenrecht</div>
+                    <div class="bildanwaltstrahl col-12 col-md-4"></div>
+                    <div class="anwaltbeschreibung col-12 col-md-8">
+                        Rechtsanwalt Peter Strahl, geboren in Burglengenfeld, verstärkt seit März 2018 die Kanzlei Weinmann & Götz im Arbeits-
+                        und Sozialrecht sowie im Beamtenrecht. Er studierte Rechtswissenschaften in Regensburg (Schwerpunkt Arbeits- und
+                        Unternehmensrecht) und absolvierte hier auch seine Referendarzeit (Berufsfeld Arbeits- und Sozialrecht). Während des
+                        Studiums verbrachte Herr Strahl einen Studienaufenthalt an der Universität Kanazawa in Japan und absolvierte
+                        einschlägige Praktika im Bereich des Arbeitsrechts. Im Referendariat folgten Stationen unter anderem bei der auf
+                        Arbeitsrecht und Betriebsräte spezialisierten Kanzlei Müller-Knapp, Hjort und Wulff.
+                        <br>
+                        <br>
+                        Er arbeitete mit beim Handbuch Weinmann/Götz „Das Arbeitnehmermandat“ (2. Auflage 2017; vgl. auch
+                        http://www.nomos-shop.de) und hat erfolgreich am Fachanwaltslehrgang für Arbeitsrecht zum Erwerb der besonderen
+                        theoretischen Kenntnisse teilgenommen. Herr Strahl ist auch als Referent zu arbeits- und sozialrechtlichen Themen tätig.
+    
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div id="beschreibungDatenschutz" class="beschreibungcontainer container sr-only">
+        <div class="row justify-content-center">
+            <div class="col-10 overlay2">
+                <div class="row justify-content-center">
+                    <div class="offset-11 col-2 xbtn"></div>
+                    <div class="nameHeadline col-12">Datenschutzerklärung</div>
+                    
+          
+                    <div class="datenschutzbeschreibung col-12 col-md-10" style="padding-bottom: 30px;">
+                        1. Name und Kontaktdaten des für die Verarbeitung Verantwortlichen
+                        Diese Datenschutz-Information gilt für die Datenverarbeitung durch:
+                        Verantwortliche: Rechtsanwaltskanzlei Ralf Weinmann und Barbara Götz, vertreten durch Ralf Weinmann und Barbara Götz (im
+                        Folgenden: Rechtsanwälte), Prüfeninger Str. 20, D-93049 Regensburg, Deutschland Email: info@weinmann-goetz.de Telefon:
+                        +49 (0) 941 – 4618930 Fax: +49 (0) 941 – 461893-99
+                        <br>
+                        <br>
+                        2. Erhebung und Speicherung personenbezogener Daten sowie Art und Zweck von deren Verwendung beim Besuch der Website
+                        Beim Aufrufen unserer Website www.weinmann-goetz.de werden durch den auf Ihrem Endgerät zum Einsatz kommenden Browser
+                        automatisch Informationen an den Server unserer Webseite gesendet. Diese Informationen werden temporär in einem sog.
+                        Logfile gespeichert. Folgende Informationen werden dabei ohne Ihr Zutun erfasst und bis zur automatisierten Löschung
+                        gespeichert: IP-Adresse des anfragenden Rechners, Datum und Uhrzeit des Zugriffs, Name und URL der abgerufenen Datei,
+                        Website von der aus der Zugriff erfolgt (Referrer-URL), verwendeter Browser und ggf. das Betriebssystem Ihres Rechners
+                        sowie der Name Ihres Access-Providers.
+                        Die genannten Daten werden durch uns zu folgenden Zwecken verarbeitet: Gewährleistung eines reibungslosen
+                        Verbindungsaufbaus der Website, Gewährleistung einer komfortablen Nutzung unserer Website, Auswertung der
+                        Systemsicherheit und -stabilität sowie zu weiteren administrativen Zwecken.
+                        Die Rechtsgrundlage für die Datenverarbeitung ist Art. 6 Abs. 1 S.1 lit. f DSGVO. Unser berechtigtes Interesse folgt aus
+                        oben aufgelisteten Zweck zur Datenerhebung. In keinem Fall verwenden wir die erhobenen Daten zu dem Zweck, Rückschlüsse
+                        auf Ihre Person zu ziehen. Nähere Erläuterungen dazu erhalten Sie unter dem Ziff. 4 dieser Datenschutzerklärung.
+                        <br>
+                        <br>
+                        3. Weitergabe von Daten
+                        Eine Übermittlung Ihrer persönlichen Daten an Dritte zu anderen als den im Folgenden aufgeführten Zwecken findet nicht
+                        statt. Wir geben Ihre persönlichen Daten nur an Dritte weiter, wenn:
+                        -Sie Ihre nach Art. 6 Abs. 1 lit. f DSGVO ausdrückliche Einwilligung dazu erteilt haben,
+                        -die Weitergabe nach Art. 6 Abs. 1 lit. f DSGVO zur Geltendmachung, Ausübung oder Verteidigung von Rechtsansprüchen
+                        erforderlichen ist und kein Grund zur Annahme besteht, dass Sie ein überwiegendes schutzwürdiges Interesse an der
+                        Nichtweitergabe Ihrer Daten haben, für den Fall, dass für die Weitergabe nach Art. 6 Abs. 1 S. 1 lit. c DSGVO eine
+                        gesetzliche Verpflichtung besteht, sowie
+                        -dies gesetzlich zulässig und nach Art. 6 Abs. 1 S. 1 lit. b DSGVO für die Abwicklung von Vertragsverhältnissen mit
+                        Ihnen erforderlich ist.
+                        <br>
+                        <br>
+                        4. Betroffenenrechte
+                        Sie haben das Recht:
+                        -gemäß Art. 15 DSGVO Auskunft über Ihre von uns verarbeiteten personenbezogenen Daten zu verlangen. Insbesondere können
+                        Sie Auskunft über die Verarbeitungszwecke, die Kategorie der personenbezogenen Daten, die Kategorien von Empfängern,
+                        gegenüber denen Ihre Daten offengelegt wurden oder werden, die geplante Speicherdauer, das Bestehen eines Rechts auf
+                        Berichtigung, Löschung, Einschränkung der Verarbeitung oder Widerspruch, das Bestehen eines Beschwerderechts, die
+                        Herkunft Ihrer Daten, sofern diese nicht bei uns erhoben wurden, somit über das Bestehen einer automatisierten
+                        Entscheidungsfindung einschließlich Profiling und ggf. aussagekräftigen Informationen zu deren Einzelheiten verlangen;
+                        -gemäß Art. 16 DSGVO unverzüglich die Berichtigung unrichtiger oder Vervollständigung Ihrer bei uns gespeicherten
+                        personenbezogenen daten zu verlangen;
+                        -gemäß Art. 17 DSGVO die Löschung Ihrer bei uns gespeicherten personenbezogenen Daten zu verlangen, soweit nicht die
+                        Verarbeitung zur Ausübung des Rechts auf freie Meinungsäußerung und Information, zur Erfüllung einer rechtlichen
+                        Verpflichtung, aus Gründen des öffentlichen Interesses oder zur Geltendmachung, Ausübung oder Verteidigung von
+                        Rechtsansprüchen erforderlich ist:
+                        -gemäß Art. 18 DSGVO die Entscheidung der Verarbeitung Ihrer personenbezogenen Daten zu verlangen, soweit die
+                        Richtigkeit der Daten von Ihnen bestritten wird, die Verarbeitung unrechtmäßig ist, Sie aber deren Löschung ablehnen und
+                        wir die Daten nicht mehr benötigen, Sie jedoch diese zur Geltendmachung, Ausübung oder Verteidigung von Rechtsansprüchen
+                        benötigen oder Sie gemäß Art. 21 DSGVO Widerspruch gegen die Verarbeitung eingelegt haben;
+                        -gemäß Art. 20 DSGVO Ihre personenbezogenen Daten, die Sie uns bereitgestellt haben, in einem strukturierten, gängigen
+                        und maschinenlesebaren Format zu erhalten oder die Übermittlung an einen anderen Verantwortlichen zu verlangen; gemäß
+                        Art. 7 Abs. 3 DSGVO Ihre einmal erteilte Einwilligung jederzeit gegenüber uns zu widerrufen. Dies hat zur Folge, dass
+                        wir die Datenverarbeitung, die auf dieser Einwilligung beruht, für die Zukunft nicht mehr fortführen dürfen und
+                        -gemäß Art. 77 DSGVO sich bei einer Aufsichtsbehörde zu beschweren. In der Regel können Sie sich hierfür an die
+                        Aufsichtsbehörde Ihres üblichen Aufenthaltsortes oder Arbeitsplatzes oder unseres Kanzleisitzes wenden.
+                        <br>
+                        <br>
+                        5. Widerspruchsrecht
+                        Sofern Ihre personenbezogenen Daten auf Grundlage von berechtigten Interessen gemäß Art. 6 Abs. 1 S. 1 lit. f DSGVO
+                        verarbeitet werden, haben Sie das Recht, gemäß Art. 21 DSGVO Widerspruch gegen die Verarbeitung Ihrer personenbezogenen
+                        Daten einzulegen, soweit Gründe vorliegen, die sich aus Ihrer besonderen Situation ergeben oder sich der Widerspruch
+                        gegen Direktwerbung richtet. Im letzten Fall haben Sie ein generelles Widerspruchsrecht, ohne das Angabe einer
+                        besonderen Situation von uns umgesetzt wird. Möchten Sie von Ihrem Wiederrufs- oder Widerspruchsrechts Gebrauch machen,
+                        genügt eine E-Mail an info@weinmann-goetz.de
+                        <br>
+                        <br>
+                        6. Aktualität und Änderung dieser Datenschutzerklärung
+                        Diese Datenschutzerklärung ist aktuell gültig und hat den Stand Mai 2018. Durch die Weiterentwicklung unserer Website
+                        und Angebote darüber oder aufgrund geänderter gesetzlicher beziehungsweise behördlicher Vorgaben kann es notwendig
+                        werden, diese Datenschutzerklärung zu ändern. Die jeweils aktuelle Datenschutzerklärung kann jederzeit auf der Website
+                        unter http://www.weinmann-goetz.de/datenschutz.html von Ihnen abgerufen und ausgedruckt werden.
+    
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="beschreibungImpressum" class="beschreibungcontainer container sr-only">
+        <div class="row justify-content-center">
+            <div class="col-10 overlay2">
+                <div class="row justify-content-center">
+                    <div class="offset-11 col-2 xbtn"></div>
+                    <div class="nameHeadline col-12">Impressum/Pflichtangaben nach dem MDStV, TDG, TMG, RStV und DL-InfoV</div>
+    
+    
+                    <div class="datenschutzbeschreibung col-12 col-md-10">
+                        <b>Redaktionell verantwortlich:</b><br><br>
+                        Rechtsanwälte Ralf Weinmann und Barbara Götz<br>
+                        Gesellschaft des bürgerlichen Rechts (vertretungsberechtigt Ralf Weinmann und Barbara Götz)<br>
+                        <br>
+                        Prüfeninger Str. 20<br>
+                        93049 Regensburg<br>
+                        Tel. 0941/461893-0<br>
+                        Fax 0941/461893-99<br>
+                        <br>
+                        E-mail: <a href="mailto:info@weinmann-goetz.de" style="color: white">info@weinmann-goetz.de</a><br>
+                        Web: <a href="https://www.weinmann-goetz.de" style="color: white">www.weinmann-goetz.de</a><br>
+                        <br>
+                        <br>
+                        Die Rechtsanwälte der Kanzlei Ralf Weinmann und Barbara Götz sind in Deutschland als Rechtsanwälte zugelassen, sie sind
+                        Mitglieder der Rechtsanwaltskammer Nürnberg, die zuständig für die Aufsicht ist (Rechtsanwaltskammer Nürnberg, Fürther
+                        Str. 115, 90429 Nürnberg (info@rak-nbg.de).
+                        <br>
+                        <br>
+                        Die einschlägigen berufsrechtlichen Regelungen sind zu finden auf der Website der Bundesrechtsanwaltskammer
+                        (www.brak.de). Es handelt sich dabei um die Bundesrechtsanwaltsordnung (BRAO), die Berufsordnung für Rechtsanwälte
+                        (BORA), die Fachanwaltsordnung (FAO), die Berufsregeln der Rechtsanwälte der Europäischen Union (CCBE-Berufsregeln)
+                        sowie das Rechtsanwaltsvergütungsgesetz (RVG).
+                        <br>
+                        <br>
+                        Für die Anwälte der Rechtsanwaltskanzlei Ralf Weinmann und Barbara Götz besteht eine Berufshaftpflichtversicherung bei
+                        der Allianz Versicherungs-AG,10900 Berlin.
+                        <br>
+                        <br>
+                        USt-IdNr.: DE287741927
+                        <br>
+                        <br>
+                        Außergerichtliche Streitbeilegung
+                        <br>
+                        <br>
+                        Die Rechtsanwaltskanzlei Ralf Weinmann und Barbara Götz ist grundsätzlich bereit, bei Streitigkeiten aus dem
+                        Mandatsverhältnis ein Vermittlungs- und Schlichtungsverfahren durchzuführen (vgl, dazu weiter Informationen unter
+                        www.rak-nbg.de)
+                        <br>
+                        <br>
+                        Urheberrechtshinweis
+                        <br>
+                        <br>
+                        Die durch die Seitenbetreiber erstellten Texte, Bilder, Grafiken sowie Layout auf diesen Seiten unterliegen dem
+                        deutschen Urheberrecht. Die Vervielfältigung, Bearbeitung, Verbreitung und jede Art von Verwertung außerhalb der Grenzen
+                        des Urheberrechts bedürfen der schriftlichen Zustimmung der Seitenbetreiber, da andernfalls eine straf- und
+                        zivilrechtliche Verfolgung droht.
+                        <br>
+                        <br>
+                        Haftungsausschluss
+                        <br>
+                        <br>
+                        Die Inhalte dieser Website wurden sorgfältig geprüft. Wir übernehmen allerdings keine Gewähr für die Richtigkeit,
+                        Vollständigkeit und Aktualität der Inhalte. Dies gilt auch für die Inhalte der verlinkten Seiten, auf die wir keinerlei
+                        Einfluss haben.
+                        <br>
+                        <br>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+</body>
+
+<script>
+    $("#mehrerfahrenArbeitsrecht").click(function () {
+        $("#arbeitsrecht_points_small").css({ "opacity": "0" })
+        $(this).animate({ "margin-top": "300px" })
+        setTimeout(function () {
+            $("#mehrerfahrenArbeitsrecht").addClass("sr-only")
+            $("#mehrerfahrenArbeitsrecht").animate({ "margin-top": "10px" })
+
+            $("#arbeitsrecht_points_small").removeClass("sr-only")
+            $("#arbeitsrecht_points_small").animate({ "opacity": "1" })
+        }, 800)
+
+    })
+
+    $("#mehrerfahrenSozialrecht").click(function () {
+        $("#sozialrecht_points_small").css({ "opacity": "0" })
+        $(this).animate({ "margin-top": "300px" })
+        setTimeout(function () {
+            $("#mehrerfahrenSozialrecht").addClass("sr-only")
+            $("#mehrerfahrenSozialrecht").animate({ "margin-top": "10px" })
+
+            $("#sozialrecht_points_small").removeClass("sr-only")
+            $("#sozialrecht_points_small").animate({ "opacity": "1" })
+        }, 800)
+
+    })
+
+    $("#mehrerfahrenBeamtenrecht").click(function () {
+        $("#beamtenrecht_points_small").css({ "opacity": "0" })
+        $(this).animate({ "margin-top": "170px" })
+        setTimeout(function () {
+            $("#mehrerfahrenBeamtenrecht").addClass("sr-only")
+            $("#mehrerfahrenBeamtenrecht").animate({ "margin-top": "10px" })
+
+            $("#beamtenrecht_points_small").removeClass("sr-only")
+            $("#beamtenrecht_points_small").animate({ "opacity": "1" })
+        }, 800)
+
+    })
+
+    $("#mehrerfahrenWeinmannTop, #mehrerfahrenAnwaltWeinmann").click(function(){
+       
+
+        $("#beschreibungWeinmann").css({ "opacity": "0" })
+        setTimeout(function () {
+            $("#beschreibungWeinmann").removeClass("sr-only")
+        }, 100)
+        setTimeout(function () {
+            $("#beschreibungWeinmann").animate({ "opacity": "1" })
+        }, 100)
+    })
+    
+    $("#mehrerfahrenGoetzTop, #mehrerfahrenAnwaltGoetz").click(function(){
+
+
+        $("#beschreibungGoetz").css({ "opacity": "0" })
+        setTimeout(function () {
+            $("#beschreibungGoetz").removeClass("sr-only")
+        }, 100)
+        setTimeout(function () {
+            $("#beschreibungGoetz").animate({ "opacity": "1" })
+        }, 100)
+    })
+
+    $("#mehrerfahrenAnwaltStrahl").click(function(){
+
+        $("#beschreibungStrahl").css({ "opacity": "0" })
+        setTimeout(function () {
+            $("#beschreibungStrahl").removeClass("sr-only")
+        },100)
+        setTimeout(function () {
+            $("#beschreibungStrahl").animate({ "opacity": "1" })
+        }, 100)
+    })
+
+    $(".xbtn").click(function(){
+        $(".beschreibungcontainer").animate({"opacity": "0"})
+        setTimeout(function(){
+            $(".beschreibungcontainer").addClass("sr-only")
+        }, 900)
+        // setTimeout(function(){
+        //     $(".beschreibungcontainer").animate({ "opacity": "1" })
+        // }, 1500)
+    })
+   
+    $("#datenschutz").click(function(){
+
+
+        $("#beschreibungDatenschutz").css({ "opacity": "0" })
+        setTimeout(function () {
+            $("#beschreibungDatenschutz").removeClass("sr-only")
+        }, 100)
+        setTimeout(function () {
+            $("#beschreibungDatenschutz").animate({ "opacity": "1" })
+        }, 100)
+    })
+
+    $("#impressum").click(function(){
+
+
+        $("#beschreibungImpressum").css({ "opacity": "0" })
+        setTimeout(function () {
+            $("#beschreibungImpressum").removeClass("sr-only")
+        }, 100)
+        setTimeout(function () {
+            $("#beschreibungImpressum").animate({ "opacity": "1" })
+        }, 100)
+    })
+   
+    $("#mehrueberuns").click(function(){
+        $("#ueberunsbeschreibung").animate({"height": "400px"})
+        $(this).addClass("sr-only")
+        $("#wenigerueberuns").removeClass("sr-only")
+    })
+
+    $("#wenigerueberuns").click(function(){
+        $("#ueberunsbeschreibung").animate({"height": "0px"})
+        $(this).addClass("sr-only")
+        $("#mehrueberuns").removeClass("sr-only")
+    })
+
+    function loadpage(){
+        $(".Mainrow").animate({"opacity": "1"}, 1400)
+        setTimeout(function(){
+            $(".Willkommen").animate({"opacity" : "1"}, 1400)
+        },600)
+       
+        setTimeout(function(){
+            $(".Rechtsgebiete").animate({"opacity" : "1"}, 1000)
+        },1400)
+    }
+
+    $(document).ready(function(){
+         loadpage()
+    })
+
+   
+</script>
+
+<style>
+    .addrHeadline{
+        text-align: center;
+        font-family: sans-serif;
+        font-size: 30px;
+        font-weight: 300;
+        margin-top: 0px;
+        color: rgb(0, 0, 0);
+    }
+    .addrStreet{
+        text-align: center;
+        font-family: sans-serif;
+        font-size: 20px;
+        font-weight: 300;
+       
+        color: rgb(0, 0, 0);
+    }
+    
+    .Footertext{
+        text-align: center;
+        font-family: sans-serif;
+        font-size: 14px;
+        font-weight: 300;
+        margin-top: 10px;
+        color: rgb(255, 255, 255);
+    }
+   
+    .Footertext2{
+        text-align: center;
+        font-family: sans-serif;
+        font-size: 12px;
+        font-weight: 300;
+        margin-top: 10px;
+        color: rgb(255, 255, 255);
+    }
+
+
+    .nameHeadline{
+        text-align: center;
+        font-family: sans-serif;
+        font-size: 30px;
+        font-weight: 300;
+        margin-top: 40px;
+        color: white;
+    }
+  
+    .titelHeadline{
+        text-align: center;
+        font-family: sans-serif;
+        font-size: 18px;
+        font-weight: 400;
+     
+        color: white;
+    }
+
+    .anwaltbeschreibung{
+        text-align: center;
+        font-family: sans-serif;
+        font-size: 18px;
+        font-weight: 300;
+        margin-top: 30px;
+        color: white;
+
+        overflow: scroll;
+        position: relative;
+        height: 400px;
+        hyphens: auto; 
+	    text-align: justify
+    }
+   
+    .datenschutzbeschreibung{
+        text-align: center;
+        font-family: sans-serif;
+        font-size: 18px;
+        font-weight: 300;
+        margin-top: 30px;
+        color: white;
+        height: 50%;
+        overflow: scroll;
+        position: relative;
+        padding-bottom: 30px;
+        hyphens: auto; 
+	    text-align: justify;
+        margin-left: 34px;
+    }
+
+    .xbtn{
+         background: url(' {% static "website/Images/xbtn.png" %}') center no-repeat;
+        background-size: 38px;
+        height: 50px;
+        transition-duration: 0.4s;
+        cursor: pointer;
+        margin-top: 5px;
+        position:relative;
+        background-color: rgba(255, 255, 255, 0.658);
+        width: 50px;
+        border: solid 0px white;
+    }
+
+    .xbtn:hover{
+        border: solid 2px white;
+        transition-duration: 0.4s;
+    }
+
+    .bildlogo{
+        background: url(' {% static "website/Images/Logo.png" %}' ) center no-repeat;
+        background-size: 100px;
+        height: 100px;
+        text-align: center;
+        opacity: 1;
+        cursor: pointer;
+        margin-top: 0px;
+   
+        transition-duration: 0.5s;
+    }
+
+    .overlay{
+        position: fixed;
+        z-index: 10;
+        height: 90%;
+        overflow: scroll;
+        background-color: #4c4c4ce3;
+        top: 30px;
+        padding-bottom: 30px;
+        padding-right: 30px;
+
+    }
+    
+    .overlay2{
+        position: fixed;
+        z-index: 10;
+        height: 90%;
+        overflow: scroll;
+        background-color: #4c4c4ce3;
+        top: 30px;
+        padding-bottom: 30px;
+        padding-right: 60px;
+
+    }
+
+
+    .box {
+        margin-top: 10px;
+    }
+
+    .card1 {
+        text-align: center;
+        border: solid 1px #5e2750;
+        padding-bottom: 10px;
+        transition-duration: 0.4s;
+    }
+
+    /* #arbeitsrecht_points_small{
+        transition-duration: 0.5s;
+    } */
+
+    .name {
+        text-align: right;
+        color: rgb(0, 0, 0);
+        font-family: sans-serif;
+        font-weight: 400;
+        padding-top: 120px;
+        font-size: 17px;
+        margin-top: 20px;
+
+    }
+
+    .namecard {
+        text-align: center;
+        font-family: sans-serif;
+        font-weight: 400;
+        color: rgb(0, 0, 0);
+        font-size: 17px;
+        margin-top: 20px;
+
+    }
+
+    .titelcard {
+        text-align: center;
+        font-family: sans-serif;
+        font-weight: 400;
+        color: rgb(0, 0, 0);
+        font-size: 17px;
+        margin-top: 10px;
+
+    }
+
+    .name2 {
+        text-align: left;
+        color: rgb(0, 0, 0);
+        font-family: sans-serif;
+        font-weight: 400;
+        padding-top: 120px;
+        font-size: 17px;
+        margin-top: -5px;
+
+    }
+
+    .titel {
+        text-align: right;
+        color: rgb(0, 0, 0);
+        font-family: sans-serif;
+        font-weight: 200;
+        padding-top: 10px;
+        font-size: 17px;
+        margin-top: 10px;
+
+    }
+
+    .titel2 {
+        text-align: left;
+        color: rgb(0, 0, 0);
+        font-family: sans-serif;
+        font-weight: 200;
+        padding-top: 10px;
+        font-size: 17px;
+        margin-top: 10px;
+
+    }
+
+    .mehrerfahren {
+        background-color: #5e2750;
+        color: white;
+        padding-left: 5px;
+        border-radius: 20px;
+        text-align: center;
+        width: 160px;
+        position: absolute;
+        right: 0px;
+        margin-top: 10px;
+        cursor: pointer;
+        transition-duration: 0.4s;
+        font-family: sans-serif;
+        font-weight: 300;
+    }
+
+    .mehrerfahren2 {
+        background-color: #5e2750;
+        color: white;
+        padding-left: 5px;
+        border-radius: 20px;
+        text-align: center;
+        width: 160px;
+        position: absolute;
+        left: 0px;
+        margin-top: 10px;
+        cursor: pointer;
+        margin-left: 10px;
+        transition-duration: 0.4s;
+        font-family: sans-serif;
+        font-weight: 300;
+    }
+
+
+    .mehrerfahren:hover, .mehrerfahren2:hover {
+        margin-top: 8px;
+        transition-duration: 0.4s;
+        font-size: 18px;
+    }
+
+    .mehrerfahren3 {
+        background-color: #5e2750;
+        color: white;
+        padding-left: 5px;
+        border-radius: 20px;
+        text-align: center;
+        width: 160px;
+        transition-duration: 0.4s;
+        font-family: sans-serif;
+        font-weight: 300;
+
+
+
+        margin-top: 10px;
+        cursor: pointer;
+
+    }
+
+
+    .mehrerfahrenAnwalt {
+        background-color: #5e2750;
+        color: white;
+       
+        border: solid 1px white;
+        border-radius: 20px;
+        text-align: center;
+        width: 160px;
+        transition-duration: 0.4s;
+        font-family: sans-serif;
+        font-weight: 300;
+
+
+        margin-top: 10px;
+        cursor: pointer;
+
+    }
+    
+    .mehrerfahrenueberuns{
+        background-color: #5e2750;
+        color: white;
+       
+        border: solid 1px white;
+        border-radius: 20px;
+        text-align: center;
+        width: 160px;
+        transition-duration: 0.4s;
+        font-family: sans-serif;
+        font-weight: 300;
+        font-size: 16px;
+        left: 8px;
+        margin-top: 10px;
+        cursor: pointer;
+
+    }
+
+    .mehrerfahrenueberuns:hover{
+        font-size: 18px;
+        transition-duration: 0.4s;
+    }
+
+    .mehrerfahrenAnwalt:hover{
+        margin-top: 8px;
+        transition-duration: 0.4s;
+        font-size: 18px;
+    }
+
+
+
+    .underHeader {
+        border-image-slice: 5;
+        border-bottom-width: 1px;
+        border-top-width: 0px;
+        border-right-width: 0px;
+        border-left-width: 0px;
+        border-style: solid;
+        border-image-source: linear-gradient(to left, #ffffff, #5e2750, #ffffff);
+    }
+
+    .Mainrow {
+        background: url(' {% static "website/Images/Titelbild.png" %}') top no-repeat;
+        background-size: 300px;
+        height: 400px;
+
+        margin-top: 40px;
+    }
+
+    #bildweinmann {
+        background: url(' {% static "website/Images/weinmann1.png" %}') top no-repeat;
+        background-size: 200px;
+        height: 300px;
+
+        margin-top: 40px;
+    }
+   
+    .bildanwaltweinmann {
+        background: url(' {% static "website/Images/weinmann1.png" %}') top no-repeat;
+        background-size: 200px;
+        height: 300px;
+       
+        margin-top: 40px;
+    }
+    .bildanwaltgoetz {
+        background: url(' {% static "website/Images/goetz1.png" %}') top no-repeat;
+        background-size: 200px;
+        height: 300px;
+       
+        margin-top: 40px;
+    }
+    .bildanwaltstrahl {
+        background: url(' {% static "website/Images/strahl.png" %}') top no-repeat;
+        background-size: 200px;
+        height: 300px;
+       
+        margin-top: 40px;
+    }
+
+    #bildgoetz {
+        background: url(' {% static "website/Images/goetz1.png" %}') top no-repeat;
+        background-size: 200px;
+        height: 300px;
+
+        margin-top: 40px;
+    }
+
+    #bildstrahl {
+        background: url(' {% static "website/Images/strahl.png" %}') top no-repeat;
+        background-size: 200px;
+        height: 300px;
+
+        margin-top: 40px;
+    }
+
+    .Willkommen {
+        background-color: #5e2750;
+        padding-top: 5px;
+        padding-bottom: 10px;
+        padding-right: 10px;
+        padding-left: 10px;
+        margin-top: -110px;
+        text-align: center;
+
+
+
+    }
+
+    .Willkommenstext {
+        color: white;
+        font-family: sans-serif;
+        font-weight: 300;
+        padding-top: 10px;
+        font-size: 25px;
+        text-align: center;
+        left: 10px;
+
+    }
+
+    .Headline {
+        color: #5e2750;
+        font-family: sans-serif;
+        font-weight: 300;
+        padding-top: 10px;
+        font-size: 20px;
+    }
+
+    .Headline2 {
+        color: #000000;
+        font-family: sans-serif;
+        font-weight: 300;
+        padding-top: 10px;
+        font-size: 20px;
+    }
+
+    .secondheadline {
+        color: #5e2750;
+        font-family: sans-serif;
+        font-weight: 500;
+        padding-top: 10px;
+        font-size: 18px;
+    }
+</style>
+
+</html>
+
+{% endblock %}

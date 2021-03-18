@@ -1,0 +1,122 @@
+{% load static %}
+
+<link rel="stylesheet" href="{% static 'website/bootstrap/css/bootstrap.min.css' %}"
+    integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
+
+<script src="{% static 'website/jquery.js' %}"></script>
+
+<!-- Bootstrap CSS -->
+
+<script src="{% static 'website/bootstrap/js/bootstrap.min.js' %}"></script>
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-12 Header">
+            <div class="Logo2 sr-only"></div>
+            <div class="col-12 underHeader2"></div>
+        </div>
+        <div class="col-12 Logo"></div>
+    </div>
+</div>
+
+{% block content %}{% endblock %}
+<!-- <div class="container-fluid ">
+
+    <div class="row">
+        <div class="col-12 Footer">
+
+
+            <span style="color: white; text-decoration: unset">&#9830; <a href="#"
+                    style="color: white; text-decoration: unset" href="#">Impressum</a> &#9830; </span>
+            <span style="color: white; text-decoration: unset"><a href="#"
+                    style="color: white; text-decoration: unset" href="#">Haftungsausschluss</a> </span>
+            <span style="color: white; text-decoration: unset">&#9830; <a href="#"
+                    style="color: white; text-decoration: unset" href="#">Datenschutz</a> &#9830;</span>
+            <span style="color: white; text-decoration: unset"> <a href="#"
+                    style="color: white; text-decoration: unset" href="#">Nutzungsbedingungen</a> &#9830;</span>
+           <span>All rights reserved by Florian Buchfink</span><span> &copy;</span>
+            {% if request.user.is_staff %}
+
+            {% endif %}
+
+
+
+        </div>
+    </div>
+</div> -->
+
+<script>
+    $(window).scroll(function () {
+        var ScrollTop = parseInt($(window).scrollTop());
+        console.log(ScrollTop);
+
+        if (ScrollTop > 110) {
+            $(".Logo2").removeClass("sr-only")
+            
+            console.log("test")
+
+        } else {
+            $(".Logo2").addClass("sr-only")
+            
+        }
+
+
+
+    
+    });
+</script>
+
+<style>
+
+    .Header{
+        height: 60px;
+        background: rgb(255, 255, 255);
+         z-index: 2;
+        position: fixed;
+    }
+
+    .Footer{
+        height: 60px;
+        background: rgb(49, 49, 49);
+        position: absolute;
+        bottom: 0px;
+        text-align: center;
+        padding-top: 15px;
+    }
+
+    .Logo{
+        background: url(' {% static "website/Images/Logo.png" %}' ) center no-repeat;
+        background-size: 120px;
+        height: 110px;
+        text-align: center;
+        opacity: 1;
+        cursor: pointer;
+        margin-top: 10px;
+        z-index: 3;
+        transition-duration: 0.5s;
+    }
+
+    .Logo2{
+        background: url(' {% static "website/Images/Logo.png" %}' ) center no-repeat;
+        background-size: 60px;
+        height: 60px;
+        text-align: center;
+        opacity: 1;
+        cursor: pointer;
+        margin-top: 0px;
+        z-index: 3;
+        transition-duration: 0.5s;
+    }
+
+    .underHeader2 {
+        border-image-slice: 5;
+        border-bottom-width: 1px;
+        border-top-width: 0px;
+        border-right-width: 0px;
+        border-left-width: 0px;
+        border-style: solid;
+        border-image-source: linear-gradient(to left, #ffffff, #5e2750, #ffffff);
+    }
+
+
+</style>
