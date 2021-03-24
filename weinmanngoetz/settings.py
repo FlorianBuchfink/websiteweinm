@@ -31,13 +31,15 @@ ALLOWED_HOSTS = ["*"]
 # Application definition
 
 INSTALLED_APPS = [
-	'website',
+    
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'website',
+    'xxxwebsite2',
 ]
 
 MIDDLEWARE = [
@@ -119,3 +121,11 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/3.0/howto/static-files/
 
 STATIC_URL = '/static/'
+
+
+EMAIL_USE_TLS = True
+EMAIL_HOST = "smtp.privateemail.com"
+EMAIL_HOST_USER = "anfrage@buchfinkmailservice.de"
+EMAIL_HOST_PASSWORD = "buchfink$$mailservice1234"
+DEFAULT_FROM_EMAIL = "anfrage@buchfinkmailservice.de"
+EMAIL_PORT = 587

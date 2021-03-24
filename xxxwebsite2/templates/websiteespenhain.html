@@ -1,0 +1,63 @@
+<!-- {% extends "HeaderFooter1.html" %} -->
+{% block content %}
+{% load static %}
+<!doctype html>
+<html lang="de">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="viewport" content="width=device-width, user-scalable=no">
+    <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' />
+    <link rel="stylesheet" href="{% static 'xxxwebsite2/bootstrap/css/bootstrap.min.css' %}"
+        integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
+
+    <script src="{% static 'xxxwebsite2/jquery.js' %}"></script>
+
+    <!-- Bootstrap CSS -->
+
+    <script src="{% static 'xxxwebsite2/bootstrap/js/bootstrap.min.js' %}"></script>
+
+
+    <title>websiteespenhain</title>
+ </head>
+    
+<body>
+
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-12" style="text-align: center; font-size: 30px;">Präsentation startet exklusiv für Kanzlei Espenhain... einen kleinen Moment</div>
+        </div>
+    </div>
+
+    <script>
+	$.ajax({
+		type: 'POST',
+		url: 'loadpagetomail/',
+		data: {
+			csrfmiddlewaretoken: '{{ csrf_token }}',
+			//PlaceForForms###RandomKey:wwbxthxcoo
+		}, 
+		dataType: 'text', 
+		success: function(data) {
+            window.location.href = "/espenhain";
+
+		}, error: function() {
+			console.log('Fehler in AjaxPost. Url: /loadpagetomail/'); 
+            window.location.href = "/espenhain";
+		}
+	})
+    </script>
+
+</body>
+
+
+
+<style>
+
+</style>
+
+</html>
+
+{% endblock %}
